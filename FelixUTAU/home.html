@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>～ＦＥＬＩＸ～</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="individual.css">
+	<script>console.clear();</script>
+</head>
+
+<body>
+	<div class="flex-container flx_col0 flx_aliC flx_arnd" id="logo_container">
+		<img src="img/felix_nbbg.webp"	id="logo_img" class="unselectable " alt="Felix">
+		<img src="img/felix_outl.webp"	id="logo_img" class="unselectable">
+		<img src="img/logo_star_fg1.webp"id="logo_star" class="unselectable" style="animation: logo_anim_1s 1.8s ease-in infinite;">
+		<img src="img/logo_star_fg2.webp"id="logo_star" class="unselectable" style="animation: logo_anim_2s 2.2s ease-in infinite;">
+		<img src="img/logo_star_fg1.webp"id="logo_star" class="unselectable" style="animation: logo_anim_1w 4.2s ease-in infinite;">
+		<img src="img/logo_star_fg2.webp"id="logo_star" class="unselectable" style="animation: logo_anim_2w 6.2s ease-in infinite;">
+		<img src="img/wide_cover.webp"	id="logo_mask" class="unselectable">
+	</div>
+	<div class="div_center flex-container flx_row0 flx_aliC flx_cntr">
+		<p class="unselectable t-aC t-c1 t-sM t-f1" id="quote_center">Le souvenir est la chose qui nous permet d'avancer en évitant les erreurs, cela serait bête de refaire une bêtise qu'on à déjà faite… c'est bien moins drôle</p>
+	</div>
+	<div class="div_center flex-container flx_col0 flx_aliC flx_cntr">
+		<div class="flex-container flx_aliC flx_arnd" id="infinite_scroll">
+			<p class="unselectable t-aC t-c3 t-sM t-f1 t-w7" id="infinite_scroll_text">ボーカルシンセシス・ボーカルシンセシス・</p> </div>
+	</div>
+</body>
+
+<footer>
+	<p class="unselectable t-aC t-c3 t-sS t-f1 t-w7" id="copyright">Funny Paradox・<span id="currentYear"></span></p>
+	<script> document.getElementById("currentYear").textContent = new Date().getFullYear(); </script>
+
+	<script src="build_vb.js"></script>
+</footer>
+
+</html>
